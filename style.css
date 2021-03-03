@@ -200,10 +200,10 @@ form textarea {
 
 /* -------- links -------- */
 
-header  a:link {color: #d40446;}
-header  a:visited {color: #DAD7CD;}
-header  a:hover {color: #588157;}
-header  a:active {color: #4A6E4C;}
+header  a:link {color: #DAD7CD;}
+header  a:visited {color: #d40446;}
+header  a:hover {color: #9b95bf;}
+header  a:active {color: ##e86f0c;}
 
 a:link {color: #000000;}
 a:visited {color: #3a0ca3;}
