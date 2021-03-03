@@ -17,11 +17,6 @@ header {
   
 }
 
-/* header a:link {color: #DAD7CD;}
-header a:visited {color: #A3B18A;}
-header a:hover {color: #588157;}
-header a:active {color: #4A6E4C;} */
-
 .logo {
   font-family: "Krona One", Arial, Helvetica, sans-serif;
   font-size: 72px;
@@ -171,12 +166,6 @@ img.image-enhanced {
 .item-double {
   flex: 2;
 }
-/* -------- links -------- */
-
-/* a:link {color: #000000;}
-a:visited {color: #3a0ca3;}
-a:hover {color: #e76f51;}
-a:active {color: #264653;} */
 
 /* -------- Desktop Styles -------- */ 
 
@@ -208,3 +197,15 @@ form textarea {
 form textarea {
   height: 160px;
 }
+
+/* -------- links -------- */
+
+a:link {color: #000000;}
+a:visited {color: #3a0ca3;}
+a:hover {color: #e76f51;}
+a:active {color: #264653;}
+
+a.header:link {color: #DAD7CD;}
+a.header:visited {color: #A3B18A;}
+a.header:hover {color: #588157;}
+a.header:active {color: #4A6E4C;}
