@@ -83,7 +83,7 @@ header nav ul li a {
 
 /* -------- main -------- */
 
-hr {
+/* hr {
   width: 960px;
   height: 2px;
   border: none;
@@ -91,7 +91,7 @@ hr {
   color: #344E41;
   margin-top: 25px;
   margin-bottom:35px;
-}
+} */
 
 main {
   background-color: #DAD7CD;
@@ -105,7 +105,7 @@ main {
 section {
   margin-bottom: 100px;
 }
-
+/* 
 main > img {
   padding: 30px;
 }
@@ -116,7 +116,7 @@ ul {
 
 ol {
   list-style-type: none;
-}
+} */
 
 /* -------- footer -------- */
 
@@ -165,6 +165,10 @@ main img {
   width: 100%;
 }
 
+img.image-enhanced {
+  border-radius: 8px;
+}
+
 .group {
   display: flex;
   flex-direction: column;
@@ -192,7 +196,7 @@ a.header:active {color: #4A6E4C;}
 
 /* -------- Desktop Styles -------- */ 
 
-@media all and(min-width: 600px) {
+@media all and (min-width: 600px) {
   section {
     padding: 0 10%;
   }
@@ -202,6 +206,11 @@ a.header:active {color: #4A6E4C;}
 }
 
 /* -------- Form Styles -------- */
+
+form {
+  padding-right: 8px;
+  /* Fixed small sizing issue on the right */
+}
 
 form label {
   display: block;
