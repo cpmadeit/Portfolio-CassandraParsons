@@ -17,10 +17,10 @@ header {
   
 }
 
-header a:link {color: #DAD7CD;}
+/* header a:link {color: #DAD7CD;}
 header a:visited {color: #A3B18A;}
 header a:hover {color: #588157;}
-header a:active {color: #4A6E4C;}
+header a:active {color: #4A6E4C;} */
 
 .logo {
   font-family: "Krona One", Arial, Helvetica, sans-serif;
@@ -173,10 +173,10 @@ img.image-enhanced {
 }
 /* -------- links -------- */
 
-a:link {color: #000000;}
+/* a:link {color: #000000;}
 a:visited {color: #3a0ca3;}
 a:hover {color: #e76f51;}
-a:active {color: #264653;}
+a:active {color: #264653;} */
 
 /* -------- Desktop Styles -------- */ 
 
