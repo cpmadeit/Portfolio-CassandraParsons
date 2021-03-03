@@ -128,22 +128,6 @@ footer {
   margin: 0px;
 }
 
-/* -------- Form Styles -------- */
-
-form label {
-  display: block;
-}
-
-form input,
-form textarea {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-form textarea {
-  height: 160px;
-}
-
 /* -------- Typography -------- */
 
 h1 {
@@ -180,19 +164,6 @@ footer p {
 main img {
   width: 100%;
 }
-/* -------- links -------- */
-
-a:link {color: #000000;}
-a:visited {color: #3a0ca3;}
-a:hover {color: #e76f51;}
-a:active {color: #264653;}
-
-a.header:link {color: #DAD7CD;}
-a.header:visited {color: #A3B18A;}
-a.header:hover {color: #588157;}
-a.header:active {color: #4A6E4C;}
-
-/* -------- Groups & Items - MobileFirst -------- */
 
 .group {
   display: flex;
@@ -207,6 +178,17 @@ a.header:active {color: #4A6E4C;}
 .item-double {
   flex: 2;
 }
+/* -------- links -------- */
+
+a:link {color: #000000;}
+a:visited {color: #3a0ca3;}
+a:hover {color: #e76f51;}
+a:active {color: #264653;}
+
+a.header:link {color: #DAD7CD;}
+a.header:visited {color: #A3B18A;}
+a.header:hover {color: #588157;}
+a.header:active {color: #4A6E4C;}
 
 /* -------- Desktop Styles -------- */ 
 
@@ -217,4 +199,20 @@ a.header:active {color: #4A6E4C;}
   .group {
     flex-direction: row;
   }
+}
+
+/* -------- Form Styles -------- */
+
+form label {
+  display: block;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
 }
