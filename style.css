@@ -108,7 +108,7 @@ section {
 /* 
 main > img {
   padding: 30px;
-}
+}*/
 
 ul {
   list-style-type: none;
@@ -116,7 +116,7 @@ ul {
 
 ol {
   list-style-type: none;
-} */
+}
 
 /* -------- footer -------- */
 
@@ -209,7 +209,6 @@ a.header:active {color: #4A6E4C;}
 
 form {
   padding-right: 8px;
-  /* Fixed small sizing issue on the right */
 }
 
 form label {
