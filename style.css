@@ -2,18 +2,6 @@
 * {
   box-sizing: border-box;
 }
-/*
-.wrapper {
-  width: 960px;
-  margin: auto;
-  text-align: center;
-}
-
-.wrapper list {
-  width: 1200px;
-  margin: auto;
-  text-align: center;
-} */
 
 body {
   margin: 0;
@@ -64,7 +52,7 @@ header nav ul li a {
   font-family: "Krona One", Arial, Helvetica, sans-serif;
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 600px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -83,7 +71,7 @@ header nav ul li a {
 
 /* -------- main -------- */
 
-/* hr {
+hr {
   width: 960px;
   height: 2px;
   border: none;
@@ -91,7 +79,7 @@ header nav ul li a {
   color: #344E41;
   margin-top: 25px;
   margin-bottom:35px;
-} */
+}
 
 main {
   background-color: #DAD7CD;
