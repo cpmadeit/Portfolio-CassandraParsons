@@ -1,4 +1,4 @@
-<!-- General Styles -->
+/* -------- General Styles -------- */
 * {
   box-sizing: border-box;
 }
@@ -15,34 +15,69 @@
   text-align: center;
 }
 
-/* -------- header & nav -------- */
+body {
+
+}
 
 header {
-  text-align: left;
+  margin-bottom: 40px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #344E41;
   color: #DAD7CD;
-  padding-top: 15px;
-  padding-left: 35px;
+  /* padding-top: 15px;
+  padding-left: 35px; */
   
 }
 
-header > h1 {
-  padding: 5px;
-  font-size: 35px;
+.logo {
+
 }
 
-header > h2 {
-  font-size: 20px; 
+/* -------- nav -------- */
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-nav {
-  text-align: right;
-  margin-right: 35px;
-  padding-bottom: 20px;
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
 }
 
+header nav ul li {
+  list-style-type: none;
+}
 
+header nav ul li a {
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media all and (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 42px;
+  }
+  
+  header nav {
+    margin-top: 14px;
+  }
+}
+
+a.header:link {color: #DAD7CD;}
+a.header:visited {color: #A3B18A;}
+a.header:hover {color: #588157;}
+a.header:active {color: #4A6E4C;}
 
 /* -------- main -------- */
 
@@ -65,6 +100,10 @@ main {
   padding-top: 25px;
 }
 
+section {
+  margin-bottom: 100px;
+}
+
 main > img {
   padding: 30px;
 }
@@ -77,8 +116,6 @@ ol {
   list-style-type: none;
 }
 
-
-
 /* -------- footer -------- */
 
 footer {
@@ -89,12 +126,45 @@ footer {
   margin: 0px;
 }
 
-/* links */
+/* -------- Form Styles -------- */
 
-a.header:link {color: #DAD7CD;}
-a.header:visited {color: #A3B18A;}
-a.header:hover {color: #588157;}
-a.header:active {color: #4A6E4C;}
+form label {
+  display: block;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+/* -------- Typography -------- */
+
+h1 {
+  padding: 5px;
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 20px; 
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+footer p {
+
+}
+/* -------- links -------- */
 
 a:link {color: #000000;}
 a:visited {color: #3a0ca3;}
@@ -102,7 +172,8 @@ a:hover {color: #e76f51;}
 a:active {color: #264653;}
 
 
-<!-- Groups & Items - MobileFirst -->
+/* -------- Groups & Items - MobileFirst -------- */
+
 .group {
   display: flex;
   flex-direction: column;
@@ -117,7 +188,8 @@ a:active {color: #264653;}
   flex: 2;
 }
 
-<!-- Desktop Styles --> 
+/* -------- Desktop Styles -------- */ 
+
 @media all and(min-width: 600px) {
   section {
     padding: 0 10%;
