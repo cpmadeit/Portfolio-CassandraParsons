@@ -72,7 +72,10 @@ header nav ul li a {
   [class*="col-"] {
     width: 100%;
   }
+  .example {background: red;}
 }
+
+
 
 /* -------- main -------- */
 
