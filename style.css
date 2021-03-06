@@ -49,7 +49,7 @@ header nav ul li a {
   font-family: "Krona One", Arial, Helvetica, sans-serif;
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 600px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -67,10 +67,10 @@ header nav ul li a {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  /* For mobile phones: */
-  .column {
-    width: 100%;
+@media (max-width: 600px) {
+  .navbar {   
+    flex-direction: column;
+  }
 }
 
 
@@ -176,7 +176,7 @@ img.image-enhanced {
 
 /* -------- Desktop Styles -------- */ 
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 600px) {
   section {
     padding: 0 10%;
   }
