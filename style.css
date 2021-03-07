@@ -69,11 +69,14 @@ header nav ul li a {
   }
 }
 
-/* @media (max-width: 546px) {
-  .navbar {   
-    flex-direction: column;
-  }
-} */
+@media all and (max-width: 400px) {
+  header nav ul li a {
+    text-decoration: none;
+    padding: 0 20px 0 0;
+    font-family: "Krona One", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  } 
+}
 
 
 
