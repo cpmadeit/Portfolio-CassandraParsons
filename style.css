@@ -76,6 +76,12 @@ header nav ul li a {
     font-family: "Krona One", Arial, Helvetica, sans-serif;
     font-size: 12px;
   } 
+  
+  .logo {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 32px;
+  }
 }
 
 
