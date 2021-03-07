@@ -39,7 +39,7 @@ header nav {
 header nav ul {
   display: flex;
   flex-direction: row;
-  padding-top: 50px;
+  padding-top: 35px;
   margin: 0;
   list-style-type: none;
 }
