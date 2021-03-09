@@ -80,6 +80,7 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
     padding-top: 35px;
+    padding-bottom: 35px;
     margin: 0;
     list-style-type: none;
     justify-content: center;
@@ -96,13 +97,9 @@ header nav ul li a {
   .logo {
     margin: 14px 0 14px 20px;
     padding-top: 0;
-    font-size: 32px;
+    font-size: 28px;
   }
 }
-
-/* @media all and (max-width: 378px) {
- 
-} */
 
 /* -------- main -------- */
 
