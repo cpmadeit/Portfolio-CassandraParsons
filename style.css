@@ -96,6 +96,7 @@ header nav ul li a {
     padding-top: 35px;
     margin: 0;
     list-style-type: none;
+    justify-content: center;
    }
   
 }
