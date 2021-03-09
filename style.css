@@ -90,10 +90,17 @@ header nav ul li a {
      flex-direction: column;
      justify-content: center;
    }
+   header nav ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    margin: 0;
+    list-style-type: none;
+   }
   
 }
 
-@media all and (max-width: 350px) {
+/* @media all and (max-width: 350px) {
    header nav {
      display: flex;
      flex-direction: column;
@@ -101,7 +108,7 @@ header nav ul li a {
      font-size: 10px; 
    }
   
-}
+} */
 
 
 /* -------- main -------- */
