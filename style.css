@@ -93,6 +93,16 @@ header nav ul li a {
   
 }
 
+@media all and (max-width: 350px) {
+   header nav {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     font-size: 10px; 
+   }
+  
+}
+
 
 /* -------- main -------- */
 
